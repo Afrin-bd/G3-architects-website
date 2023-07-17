@@ -1,0 +1,49 @@
+/* work sens google font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fira+Sans:ital,wght@0,100;1,400&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,700;1,900&family=Noto+Serif:ital@1&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+  /* shred style */
+*{
+  font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+  
+}
+header{
+background: rgba(255, 144, 14, 0.10);
+padding:50px 240px
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+}
+nav > ul{
+  display: flex;
+}
+nav li{
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size:1rem ;
+}
+nav-title{
+  padding:10px;
+}
+nav li a{
+  color: #424242
+  text-decoration: none;
+}
+/* banner style */
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+  margin:0 auto;
+}
+.banner-title{
+  font-size:4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description{
+  color:#727272
+}
